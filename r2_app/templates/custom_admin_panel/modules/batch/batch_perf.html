@@ -1,0 +1,78 @@
+<div ng-controller="batch_perf_ctrl">
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 class="m-t-0 header-title">Performance of all students in {$ batch_name $}
+                <!-- <button style="margin-left:20px;" class="btn btn-success" data-toggle="modal" data-target="#addBatchModel">
+                    Add New Batch &nbsp;
+                    <i class="fa fa-plus-square"></i>
+                </button> -->
+
+
+                <button style="margin-left:20px;" ng-click="save_as()" class="btn btn-info">
+                    Export as excel &nbsp;
+                    <!-- <i class="fa fa-plus-square"></i> -->
+                </button>
+
+            </h4>
+
+            <!-- <div class="table-responsive m-b-20" ng-if="students.length != 0">
+                <table ng-table="tableParams" class="table table-bordered table-striped" show-filter="true">
+
+                    <tr ng-repeat="student in $data">
+                        <td title="'Name'" filter="{ full_name: 'text'}" sortable="'full_name'">
+                            {$ student.full_name $}
+                        </td>
+                        <td title="'Quiz'" filter="{ quiz_marks: 'text'}" sortable="'quiz_marks'">
+                            {$ student.quiz_marks $}
+                        </td>
+                        <td title="'Assignment'" filter="{ ass_marks: 'text'}" sortable="'ass_marks'">
+                            {$ student.ass_marks $}
+                        </td>
+                        <td title="'Application'" filter="{ app_marks: 'text'}" sortable="'app_marks'">
+                            {$ student.app_marks $}
+                        </td>
+                        <td title="'Total'" filter="{ total_marks: 'text'}" sortable="'total_marks'">
+                            {$ student.total_marks $}
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+                <hr>
+            </div> -->
+
+
+            <div class="table-responsive m-b-20" ng-if="students.length != 0">
+                <table class="table table-bordered table-striped" id="tableWrap" >
+                    <tr>
+                        <th ng-repeat="column in columns">{$ column $}</th>
+                    </tr>
+                    <tr ng-repeat="student in students">
+                        <td>{$ student.full_name $}</td>
+                        <td>{$ student.total_marks $} / {$ student.total_outof $} </td>
+                        <td ng-repeat="col in student.ans_marks_list track by $index">
+                            <!-- <p ng-show="col.marks == '-'">
+                                -
+                            </p>
+                            <p ng-show="col.marks != '-'">
+                                {$ col.marks $}/{$ col.out_of $}
+                            </p> -->
+                            {$ col.marks $}/{$ col.out_of $}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div ng-if="students.length == 0">
+                <center>
+                    There are no students in this batch.
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+</div>

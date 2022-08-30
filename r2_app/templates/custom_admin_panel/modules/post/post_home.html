@@ -1,0 +1,257 @@
+<div ng-controller="post_ctrl">
+
+    <!-- LOADER FOR THIS CONTROLLER -->
+    <div class="r2_loader" ng-if="show_loader">
+        <img src="/static/templates/custom_admin_panel/assets/images/loader4.gif" alt="">
+        <br>
+        <h2 class="r2_loader_text">Loading Posts...</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 style="margin-bottom:35px;">List of Posts
+                <button style="margin-left:20px;" class="btn btn-success r2-float-right" data-toggle="modal" data-target="#addPostModel">
+                    Add New Post &nbsp;
+                    <i class="fa fa-plus-square"></i>
+                </button>
+                <!-- <a style="margin-left:20px;" class="btn btn-success" href="/admin/r2_app/post/add/" target="_blank">
+                    Add Post
+                </a> -->
+            </h4>
+            
+            <div class="table-responsive m-b-20">
+                <table ng-table="tableParams" class="table table-bordered table-striped" show-filter="true">
+
+                    <tr ng-repeat="post in $data">
+                        <td title="'ID'" filter="{ post_id: 'text'}" sortable="'post_id'">
+                            {$ post.post_id $}
+                        </td>
+
+                        <td title="'Title'" filter="{ title: 'text'}" sortable="'title'">
+                            {$ post.title $}
+                        </td>
+
+                        <td title="'Content'" filter="{ text: 'text'}" sortable="'text'">
+                            <div ckeditor="ckEditorOptions" ng-model="post.text">
+                                <!-- {$ post.text $} -->
+                            </div> 
+                        </td>
+
+                        <td title="'Batch'" filter="{ batch_name: 'text'}" sortable="'batch_name'">
+                            {$ post.batch_name $}
+                        </td>
+
+                        <td title="'Date'" filter="{ created_at: 'text'}" sortable="'post_id'">
+                            {$ post.created_at $}
+                        </td>
+
+                        <td title="'Image'" filter="{ img_url: 'text'}" sortable="'img_url'">
+                            <a ng-if="post.img_url != 'media/'" href="{$ post.img_url $}" target="_blank">
+                                <img width="100" src="{$ post.img_url $}" alt="">
+                            </a>
+                            <span ng-if="post.img_url == 'media/'">
+                                No Image 
+                            </span>
+                        </td>
+
+                        <td title="'Video'" filter="{ video_url: 'text'}" sortable="'video_url'">
+                            <a ng-if="post.video_url != 'None' && post.video_url != ''" href="{$ post.video_url $}" target="_blank">
+                                Play Video
+                            </a>
+                            <span ng-if="post.video_url == 'None' || post.video_url == ''">
+                                No Video
+                            </span>
+                        </td>
+
+                        <td title="'Likes'" filter="{ like_count: 'text'}" sortable="'like_count'">
+                            {$ post.like_count $}
+                        </td>
+
+                        <td title="'Comments'" filter="{ comment_count: 'text'}" sortable="'comment_count'">
+                            {$ post.comment_count $}
+                        </td>
+                        
+                        <td title="'Edit'">
+                            <button class="btn btn-info" ng-click="edit_post(post)" data-toggle="modal" data-target="#updatePostModel">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <!-- <a class="btn btn-info" ng-click="edit_post(post)" href="/admin/r2_app/post/{$ post.post_id $}/change/" target="_blank">
+                                Edit
+                            </a> -->
+                        </td>
+
+                        <td title="'Delete'">
+                            <button class="btn btn-danger" ng-click="delete_post(post)">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div id="updatePostModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content modal-lg">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$current_post.title$}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">Title:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_post.title" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Content:</div>
+                            <div class="col-sm-9">
+                                <!-- <textarea ng-model="current_post.text" class="form-control" ></textarea> -->
+                                <!-- <input type="text" ng-model="current_post.text" class="form-control" /> -->
+
+                                <textarea ckeditor="ckEditorOptions" ng-model="current_post.text"></textarea>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-3">Batch:</div>
+                            <div class="col-sm-9">
+                                <select class="form-control"
+                                ng-model="selected_batch"
+                                ng-options="batch.batch_name for batch in batches">
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Video:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_post.video_url" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-3">Image:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="current_post.new_img_url" class="form-control" />
+                                <div style="font-size:10px;">
+                                    * Image will be uploaded but won't be reflected immediately. Refresh the page to see new image.
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" ng-click="save_edit()" data-dismiss="modal">Save changes</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div id="addPostModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content modal-lg">
+                <form>
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$new_post.title$}</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">Title*:</div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Title of the post" ng-model="new_post.title" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Content*:</div>
+                            <div class="col-sm-9">
+                                <!-- <textarea placeholder="Content of the post" ng-model="new_post.text" class="form-control" ></textarea> -->
+                                <!-- <input type="text" placeholder="Content of the post" ng-model="new_post.text" class="form-control" /> -->
+
+                                <textarea ckeditor="ckEditorOptions" ng-model="new_post.text"></textarea>
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                Batches*:
+                                <br>
+                                <p class="r2-form-note">*Note: To select multiple batches, press Ctrl (for windows) or Command (for mac) and click the batches you wish.</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <input type="checkbox" ng-change="change_select_all_batch()" ng-model="select_all_batches" name="" id=""> Select all batches
+                                <select multiple class="form-control"
+                                ng-model="new_post.batch"
+                                ng-options="batch.batch_name for batch in batches">
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Select Image*:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="new_post.new_image" class="form-control" name="" id="">
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                Video URL*:
+                                <br>
+                                <p class="r2-form-note">(YouTube URL)</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Paste complete URL of YouTube video" ng-model="new_post.video_url" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+                        <button class="btn btn-success" ng-click="add_new_post()" data-dismiss="modal">Add New Post</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</div>

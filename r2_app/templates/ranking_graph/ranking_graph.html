@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<style>
+		/* body {
+			background: url(mountain.jpg);
+			background-repeat: no-repeat;
+			background-size: 103%;
+		} */
+		body {
+			background: #3b4859
+		}
+	</style>
+</head>
+
+<body>
+
+<!-- <body background="/static/templates/ranking_graph/images/graph_bg.jpg"> -->
+
+	<div style="display:none" id="id_ranking_list">
+		{{ranking_list}}
+	</div>
+
+	<canvas id="myCanvas" width="1000" height="700" style="border:0px solid black; background-color: #00000000">
+		Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	<br>
+	
+	<p style="font-size: 50px; text-align:center; color: white;">
+		Top 3 performers vs me
+	</p>
+
+	<script>
+
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+
+		ranking_list = JSON.parse(document.getElementById("id_ranking_list").innerHTML);
+
+		console.log('raw data size: ', ranking_list);
+
+		// DRAWING PROFILE PICTURE OF THE STUDENTS
+		function drawProfileImage(proX, proY, proRadius, index) {
+			var thumbImg = document.createElement('img');
+
+			thumbImg.src = '/' + ranking_list[index].user_img;
+
+			thumbImg.onload = function () {
+				ctx.save();
+				ctx.beginPath();
+				ctx.arc(proX, proY, proRadius, 0, Math.PI * 2, true);
+				ctx.closePath();
+				ctx.clip();
+
+				ctx.drawImage(thumbImg, (proX - proRadius), (proY - proRadius), (proRadius * 2), (proRadius * 2));
+
+				ctx.beginPath();
+				ctx.arc(0, 0, proRadius, 0, Math.PI * 2, true);
+				ctx.clip();
+				ctx.closePath();
+				ctx.restore();
+			};
+		}
+
+		// INITIALIZING MAIN VARIABLES OF THE GRAPH
+		ctx.textAlign = 'center';
+		var graphTop = 100;
+		var totalHeight = 600;
+		var graphBarWidth = 150;
+		var graphLeft = graphBarWidth;
+		var graphBarDiff = 30;
+		var fontSize = 50;
+		var circleRadius = graphBarWidth * 0.4;
+
+		var graphTopNumber = (circleRadius * 2 + graphTop) + (fontSize / 2)
+		var graphInitNumber = ranking_list[0].user_points;
+
+		function get_bar_y(index) {
+			var bar_start = circleRadius * 2 + graphTop;
+			var bar_end = totalHeight;
+			var bar_diff = bar_end - bar_start;
+
+			var point_start = ranking_list[0].user_points;
+			var current_point = ranking_list[index].user_points;
+
+			var point_percent = (current_point / point_start) * 100;
+			var bar_percent = 100 - point_percent;
+
+			return (((bar_percent / 100) * bar_diff) + bar_start);
+		}
+
+		// IMAGE SHOWING RANK OF THE CURRENT STUDENT
+		function my_rank(barX, circleY, circleRadius, barWidth, i) {
+			var thumbImg = document.createElement('img');
+
+			var imgX = barX;
+			var imgHeight = 80;
+			var imgY = (circleY - circleRadius - 5 - imgHeight);
+			var imgWidth = barWidth;
+
+			thumbImg.src = "http://clipartix.com/wp-content/uploads/2017/02/Speech-bubble-no-cartoon-bubble-clipart-clipartfox.png";
+
+			thumbImg.onload = function () {
+				ctx.drawImage(thumbImg, imgX, imgY, imgWidth, imgHeight);
+
+				ctx.fillStyle = 'black';
+				ctx.font = imgHeight / 2 + "px Arial";
+				ctx.fillText("me - " + ranking_list[i].user_rank, imgX + (barWidth/2), (imgY + imgHeight / 2) + 2);
+			};
+		}
+
+		for (var i = 1; i < 6; i++) {
+			// WRITING NUMBER TO THE LEFT OF THE GRAPH
+			ctx.fillStyle = 'white';
+			ctx.font = fontSize + "px Arial";
+			ctx.fillText(graphInitNumber, graphBarWidth / 4, (graphTopNumber));
+
+			// DRAWING LINE ON THE RIGHT OF EACH LINE
+			ctx.beginPath();
+			ctx.moveTo(graphLeft * 3 / 4, graphTopNumber - (fontSize / 2));
+			ctx.lineTo(900, graphTopNumber - (fontSize / 2));
+			ctx.strokeStyle = 'white';
+			ctx.lineWidth = 1;
+			ctx.stroke();
+
+			graphTopNumber += (totalHeight - (circleRadius * 2 + graphTop)) / 5 //(120);
+			graphInitNumber -= Math.round(ranking_list[0].user_points / 5);
+		}
+
+		// DRAWING THE GRAPH
+		for (var i = 0, j = 10; i < ranking_list.length; i++ , j = j + (graphBarWidth + graphBarDiff)) {
+			var barX = j + graphLeft;
+
+			var barY = get_bar_y(i);
+
+			var circleX = barX + (graphBarWidth * 0.5);
+			var circleY = barY - (graphBarWidth * 0.5);
+
+			drawProfileImage(circleX, circleY, circleRadius, i);
+
+			var grd = ctx.createLinearGradient(barX, barY, barX + graphBarWidth, (barY));
+			grd.addColorStop(0, "#01ddd9");
+			grd.addColorStop(1, "#00c8e6");
+			
+			// DRAWING BARS
+			ctx.fillStyle = grd;
+			ctx.fillRect(barX + 40, barY, graphBarWidth - 80, totalHeight - (barY));
+
+			// WRITING STUDENT NAME
+			ctx.fillStyle = 'white';
+			ctx.font = "40px Arial";
+			ctx.fillText( ranking_list[i].user_name, barX + (graphBarWidth/2), totalHeight + 50);
+
+			console.log('\n\n');
+			console.log('index', i);
+			console.log('X', barX);
+			console.log('Y', barY);
+			console.log('Width', graphBarWidth);
+			console.log('Height', totalHeight - (barY));
+
+			if (ranking_list[i].current_user)
+				my_rank(barX, circleY, circleRadius, graphBarWidth, i);
+		}
+		
+		// DRAWING BOTTOM LINE
+		ctx.beginPath();
+		ctx.moveTo(graphLeft / 2, totalHeight);
+		ctx.lineTo(950, totalHeight - 1);
+		ctx.strokeStyle = 'white';
+		ctx.lineWidth = 5;
+		ctx.stroke();
+
+		// DRAWING IMAGE OF THE CROWN
+		var crownImg = document.createElement('img');
+		var crownImgY = graphTop;
+		var crownImgHeight = 80;
+		var crownImgWidth = (circleRadius*2);
+		var crownImgX = graphLeft - crownImgWidth;
+
+		crownImg.src = "/static/templates/ranking_graph/images/king.png";
+
+		crownImg.onload = function () {
+			ctx.drawImage(crownImg, crownImgX, crownImgY, crownImgWidth, crownImgHeight);
+		};
+
+	</script>
+
+</body>
+
+</html>

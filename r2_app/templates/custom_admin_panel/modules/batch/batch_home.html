@@ -1,0 +1,175 @@
+<div ng-controller="batch_ctrl">
+    
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 style="margin-bottom:35px;">List of Batches
+                <button style="margin-left:20px;" class="btn btn-success r2-float-right" data-toggle="modal" data-target="#addBatchModel">
+                    Add New Batch &nbsp; <i class="fa fa-plus-square"></i>
+                </button>
+            </h4>
+
+            <div class="table-responsive m-b-20">
+                <table ng-table="tableParams" class="table table-bordered table-striped" show-filter="true" >
+
+                    <tr ng-repeat="batch in $data">
+                        <td title="'Batch'" filter="{ batch_name: 'text'}" sortable="'batch_name'">
+                            {$ batch.batch_name $}
+                        </td>
+                        <td title="'Company'" filter="{ company_name: 'text'}" sortable="'company_name'">
+                            {$ batch.company_name $}
+                        </td>
+                        <td title="'Description'" filter="{ desc: 'text'}" sortable="'desc'">{$  batch.desc $}</td>
+                        <td title="'Date'" filter="{ create_at: 'text'}" sortable="'create_at'">{$ batch.create_at $}</td>
+                        <td title="'Logo'">
+                            <img ng-click="show_iamge('/media/'+batch.company_logo)" ng-src={$'/media/'+batch.company_logo$} height="50"/>
+                        </td>
+                        <td title="'Performance'">
+                            <a class="btn btn-success" ui-sref="batch_perf({batch_id: batch.id, batch_name: batch.batch_name})">
+                                Performance
+                            </a>
+                        </td>
+                        <td title="'Edit'">
+                            <button class="btn btn-info" ng-click="edit_batch(batch)" data-toggle="modal" data-target="#updateBatchModel" >
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </td>
+                        <td title="'Delete'">
+                            <button class="btn btn-danger" ng-click="delete_batch(batch)">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                
+                <!--
+                <table ng-table="tableParams" class="table " show-filter="false">
+                    <tr ng-repeat="user in $data | filter : batch_table_search">
+                        <td title="'Name'" sortable="'name'">
+                            {$user.name$}
+                        </td>
+                        <td title="'Age'" sortable="'age'">
+                            {$user.age$}
+                        </td>
+                    </tr>
+                </table> -->
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- Modal -->
+    <div id="updateBatchModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$current_batch.company_name$}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">Batch Name:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_batch.batch_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        
+                        <div class="row">
+                            <div class="col-sm-3">Company Name:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_batch.company_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-sm-3">Description:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_batch.desc" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-sm-3">Company logo:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="current_batch.new_logo" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" ng-click="save_edit()" data-dismiss="modal">Save changes</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+        
+        
+    <!-- Modal -->
+    <div id="addBatchModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">New Batch</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">Batch Name:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="new_batch.batch_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        
+                        <div class="row">
+                            <div class="col-sm-3">Company Name:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="new_batch.company_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-sm-3">Description:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="new_batch.desc" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-sm-3">Company logo:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="new_batch.company_logo" accept="image/*" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" ng-click="add_new_batch()" data-dismiss="modal">Add New Batch</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</div>

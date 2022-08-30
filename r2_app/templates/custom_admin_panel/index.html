@@ -1,0 +1,559 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>R2 Consulting - Nexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="An admin panel for R Square Consultancy" name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="{% static 'templates/custom_admin_panel/assets/images/app_icon.png' %}">
+
+    <script type="text/javascript" src="{% static 'node_modules/angular/angular.js' %}"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/textAngular/1.5.16/textAngular.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.8.0/ckeditor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-ckeditor/0.2.1/ng-ckeditor.min.js"></script>
+    
+    <!-- ng-table -->
+    <link rel="stylesheet" href="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.css">
+    <script src="{% static 'templates/custom_admin_panel/assets/js/ng-table.min.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/r2app.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/home/home_page_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/batch/batch_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/quiz/quiz_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/quiz/new_quiz_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/student/student_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/post/post_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/assignment/review/review_as.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/application/review.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/batch/batch_perf_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'templates/custom_admin_panel/modules/badge/badge.js' %}"></script>
+
+
+    <!-- DataTables -->
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/jquery.dataTables.min.css' %}" rel="stylesheet"
+        type="text/css" />
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/buttons.bootstrap.min.css' %}" rel="stylesheet"
+        type="text/css" />
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/responsive.bootstrap.min.css' %}" rel="stylesheet"
+        type="text/css" />
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/scroller.bootstrap.min.css' %}" rel="stylesheet"
+        type="text/css" />
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.colVis.css' %}" rel="stylesheet"
+        type="text/css" />
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.bootstrap.min.css' %}" rel="stylesheet"
+        type="text/css" />
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/datatables/fixedColumns.dataTables.min.css' %}" rel="stylesheet"
+        type="text/css" />
+
+    <!-- Sweet Alert -->
+    <link href="{% static 'templates/custom_admin_panel/assets/plugins/sweet-alert2/sweetalert2.min.css' %}" rel="stylesheet"
+        type="text/css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'templates/custom_admin_panel/assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="{% static 'templates/custom_admin_panel/assets/css/metisMenu.min.css' %}" rel="stylesheet">
+    <!-- Icons CSS -->
+    <link href="{% static 'templates/custom_admin_panel/assets/css/icons.css' %}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static 'templates/custom_admin_panel/assets/css/style.css' %}" rel="stylesheet">
+
+    <link href="{% static 'templates/custom_admin_panel/common/css/r2style.css' %}" rel="stylesheet">
+    <style>
+        #page-wrapper {
+            width: 100% !important;
+        }
+
+        td {
+            font-size: 12px !important;
+        }
+
+        .sidebar-navigation {
+            top: 10px !important;
+        }
+
+        #page-right-content {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            z-index: 99;
+            background: white;
+        }
+
+        .my-custom-top-bar {
+            background: grey;
+            height: 50px;
+            position: relative;
+            bottom:30px;
+            color:white;
+        }
+
+        #r2_menu_btn {
+            color: white;
+        }
+
+        #r2_menu_btn > img {
+            width: 50px;
+            padding: 15px;
+        }
+
+        #r2_menu_btn:hover {
+            cursor: pointer;
+        }
+
+        .modal-backdrop {
+            z-index: 98 !important;
+        }
+        
+
+        /* .modal {
+            z-index: 102 !important;
+        } */
+
+        .my-custom-top-bar{
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b435b+0,059eda+100 */
+            background: #3b435b; /* Old browsers */
+            background: -moz-linear-gradient(left, #3b435b 0%, #059eda 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #3b435b 0%,#059eda 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #3b435b 0%,#059eda 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b435b', endColorstr='#059eda',GradientType=1 ); /* IE6-9 */
+        }
+
+        .correct-answer{
+            background: #23b195;
+            color: #FFF;
+            padding: 2px;
+            border-radius: 5px;
+            font-weight: 800;
+            margin-left: 5px;
+        }
+
+    </style>
+
+</head>
+
+
+<body ng-app="r2_app">
+
+    <div id="page-wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+
+            <!-- LOGO -->
+            <div class="topbar-left" style="display:none;">
+                <div class="">
+                    <a ui-sref="home_page" class="logo">
+                        <img src="{% static 'templates/custom_admin_panel/assets/images/app_icon.png' %}" alt="logo" class="logo-lg" />
+                        <img src="{% static 'templates/custom_admin_panel/assets/images/app_icon.png' %}" alt="logo" class="logo-sm hidden" />
+
+                    </a>
+                </div>
+            </div>
+
+            <!-- Top navbar -->
+            <div class="navbar navbar-default" role="navigation" style="display:none;">
+                <div class="container">
+                    <div class="">
+
+                        <!-- Mobile menu button -->
+                        <div class="pull-left">
+                            <button type="button" class="button-menu-mobile visible-xs visible-sm">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <span class="clearfix"></span>
+                        </div>
+
+                        <!-- Top nav left menu -->
+                        <!-- <ul class="nav navbar-nav hidden-sm hidden-xs top-navbar-items">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> -->
+
+                        <!-- Top nav Right menu -->
+                        <ul class="nav navbar-nav navbar-right top-navbar-items-right pull-right">
+                            <li class="hidden-xs">
+                                <form role="search" class="navbar-left app-search pull-left">
+                                    <input type="text" placeholder="Search..." class="form-control">
+                                    <a href="">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </form>
+                            </li>
+                            <li class="dropdown top-menu-item-xs">
+                                <a href="#" data-target="#" class="dropdown-toggle menu-right-item" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="mdi mdi-bell"></i>
+                                    <span class="label label-danger">3</span>
+                                </a>
+                                <ul class="dropdown-menu p-0 dropdown-menu-lg">
+                                    <!--<li class="notifi-title"><span class="label label-default pull-right">New 3</span>Notification</li>-->
+                                    <li class="list-group notification-list" style="height: 267px;">
+                                        <div class="slimscroll">
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="media-left p-r-10">
+                                                        <em class="fa fa-diamond bg-primary"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">A new order has been placed A new order has been placed</h5>
+                                                        <p class="m-0">
+                                                            <small>There are new settings available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="media-left p-r-10">
+                                                        <em class="fa fa-cog bg-warning"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">New settings</h5>
+                                                        <p class="m-0">
+                                                            <small>There are new settings available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="media-left p-r-10">
+                                                        <em class="fa fa-bell-o bg-custom"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">Updates</h5>
+                                                        <p class="m-0">
+                                                            <small>There are
+                                                                <span class="text-primary font-600">2</span> new updates available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="media-left p-r-10">
+                                                        <em class="fa fa-user-plus bg-danger"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">New user registered</h5>
+                                                        <p class="m-0">
+                                                            <small>You have 10 unread messages</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="media-left p-r-10">
+                                                        <em class="fa fa-diamond bg-primary"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">A new order has been placed A new order has been placed</h5>
+                                                        <p class="m-0">
+                                                            <small>There are new settings available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <!-- list item-->
+                                            <a href="javascript:void(0);" class="list-group-item">
+                                                <div class="media">
+                                                    <div class="media-left p-r-10">
+                                                        <em class="fa fa-cog bg-warning"></em>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">New settings</h5>
+                                                        <p class="m-0">
+                                                            <small>There are new settings available</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <!--<li>-->
+                                    <!--<a href="javascript:void(0);" class="list-group-item text-right">-->
+                                    <!--<small class="font-600">See all notifications</small>-->
+                                    <!--</a>-->
+                                    <!--</li>-->
+                                </ul>
+                            </li>
+
+                            <li class="dropdown top-menu-item-xs">
+                                <a href="" class="dropdown-toggle menu-right-item profile" data-toggle="dropdown" aria-expanded="true">
+                                    <img src="{% static 'templates/custom_admin_panel/assets/images/users/avatar-1.png' %}" alt="user-img" class="img-circle"> </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="ti-user m-r-10"></i> Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="ti-settings m-r-10"></i> Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="ti-lock m-r-10"></i> Lock screen</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="/admin/logout/">
+                                            <i class="ti-power-off m-r-10"></i> Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end navbar -->
+        </div>
+        <!-- Top Bar End -->
+
+
+        <!-- Page content start -->
+        <div class="page-contentbar">
+
+            <!--left navigation start-->
+            <aside class="sidebar-navigation">
+                <div class="scrollbar-wrapper">
+                    <div>
+                        <button type="button" class="button-menu-mobile btn-mobile-view visible-xs visible-sm">
+                            <i class="mdi mdi-close"></i>
+                        </button>
+                        <!-- User Detail box -->
+                        <p>
+                        
+                        <div class="row">
+                            <div class="col-sm-4" >
+                                <center>
+                                    <img src="{% static 'templates/custom_admin_panel/assets/images/app_icon.png' %}" style="width: 50px;" alt="logo" class="logo-lg" />
+                                </center>
+                            </div>
+                            <p class="col-sm-8">
+                                <center>
+                                    R2 Consulting - Nexo
+                                </center>
+                            </p>
+                        </div>
+                        </p>
+                        <div class="user-details">
+                            <div class="pull-left">
+                                <img src="{% static 'templates/custom_admin_panel/assets/images/users/avatar-1.png' %}" alt="" class="thumb-md img-circle">
+                            </div>
+                            
+                            <div class="user-info">
+                                <a href="#">Rajiv Misra</a>
+                                <p class="text-muted m-0">Administrator</p>
+                            </div>
+                        </div>
+                        <!--- End User Detail box -->
+
+                        <!-- Left Menu Start -->
+                        <ul class="metisMenu nav" id="side-menu">
+                            <li>
+                                <a ui-sref="home_page">
+                                    <i class="fa fa-dashboard"></i> Dashboard </a>
+                            </li>
+
+                            <li>
+                                <a ui-sref="batch_home" class="r2_close_menu">
+                                    <span class="label label-custom pull-right">{$ batch_count $}</span>
+                                    <i class="ti-sharethis"></i> Batch </a>
+                            </li>
+
+                            <li>
+                                <a ui-sref="student_home" class="r2_close_menu">
+                                    <span class="label label-custom pull-right">{$ student_count $}</span>
+                                    <i class="fa fa-graduation-cap"></i> Student </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" aria-expanded="true">
+                                    <span class="label label-custom pull-right">{$ quiz_count $}</span>
+                                    <i class="fa fa-check-square"></i> Quiz</span>
+                                </a>
+                                <ul class="nav-second-level nav" aria-expanded="true">
+                                    <li>
+                                        <a ui-sref="new_quiz" class="r2_close_menu">Create Quiz</a>
+                                    </li>
+                                    <li>
+                                        <a ui-sref="quiz_home" class="r2_close_menu">Review Answers</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a ui-sref="post_home" class="r2_close_menu">
+                                    <span class="label label-custom pull-right">{$ post_count $}</span>
+                                    <i class="fa fa-rss"></i> Posts </a>
+                            </li>
+
+                            <li>
+                                <a ui-sref="review_as" class="r2_close_menu">
+                                    <span class="label label-custom pull-right">{$ ass_count $}</span>
+                                    <i class="fa fa-book"></i> Assignment </a>
+                            </li>
+
+                            <!-- <li>
+                                <a href="javascript: void(0);" aria-expanded="true">
+                                    <span class="label label-custom pull-right">{$ ass_count $}</span>
+                                    <i class="ti-check-box"></i> Assignment</span>
+                                </a>
+                                <ul class="nav-second-level nav" aria-expanded="true">
+                                    <li>
+                                        <a ui-sref="new_quiz">Create Assignment</a>
+                                    </li>
+                                    <li>
+                                        <a ui-sref="review_as">Review Assignment</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li>
+                                <a ui-sref="review_application" class="r2_close_menu">
+                                    <span class="label label-custom pull-right">{$ app_topic_count $}</span>
+                                    <i class="fa fa-crosshairs"></i> Application </a>
+                            </li>
+
+                            <li>
+                                <a ui-sref="view_badge" class="r2_close_menu">
+                                    <span class="label label-custom pull-right">{$ badge_count $}</span>
+                                    <i class="fa fa-trophy"></i> Badges </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--Scrollbar wrapper-->
+            </aside>
+            <!--left navigation end-->
+
+            <!-- START PAGE CONTENT -->
+            <div id="page-right-content">
+                <div class="my-custom-top-bar">
+                    <div class="pull-left">
+                        <a id="r2_menu_btn">
+                            <!-- <img src="/static/templates/custom_admin_panel/assets/images/menu_btn.png" alt=""> -->
+                            <i class="fa fa-bars" style="position: relative;
+                            left: 10px;
+                            top: 15px;
+                            font-size: 20px;"></i>
+                        </a>
+                    </div>
+                    <!-- <div class="pull-right">
+                        <img height="50" src="{% static 'templates/custom_admin_panel/assets/images/users/avatar-1.png' %}" alt="" class="thumb-md img-circle">
+                    </div> -->
+                </div>
+                <div class="container">
+                    <ui-view></ui-view>
+                </div>
+            </div>
+            <!-- end container -->
+
+            <!-- <div class="footer">
+                                        <div class="pull-right hidden-xs">
+                                            Project Completed <strong class="text-custom">39%</strong>.
+                                        </div>
+                                        <div>
+                                            <strong>Simple Admin</strong> - Copyright &copy; 2017
+                                        </div>
+                                    </div> -->
+            <!-- end footer -->
+
+        </div>
+        <!-- End #page-right-content -->
+
+    </div>
+    <!-- end .page-contentbar -->
+    </div>
+    <!-- End #page-wrapper -->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="{% static 'templates/custom_admin_panel/assets/js/jquery-2.1.4.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/js/metisMenu.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/js/jquery.slimscroll.min.js' %}"></script>
+
+    <!-- Datatable js -->
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.bootstrap.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.buttons.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/buttons.bootstrap.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/jszip.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/pdfmake.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/vfs_fonts.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/buttons.html5.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/buttons.print.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.keyTable.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.responsive.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/responsive.bootstrap.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.scroller.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.colVis.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/datatables/dataTables.fixedColumns.min.js' %}"></script>
+
+    <script src="https://cdn.jsdelivr.net/alasql/0.3/alasql.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.12/xlsx.core.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/table-to-json/1.0.0/jquery.tabletojson.min.js"></script>
+
+    <!-- Dashboard init -->
+    <!-- <script src="{% static 'templates/custom_admin_panel/assets/pages/jquery.dashboard.js' %}"></script> -->
+
+
+    <!-- init -->
+    <!-- <script src="{% static 'templates/custom_admin_panel/assets/pages/jquery.datatables.init.js' %}"></script> -->
+
+    <!-- Sweet-Alert  -->
+    <script src="{% static 'templates/custom_admin_panel/assets/plugins/sweet-alert2/sweetalert2.min.js' %}"></script>
+    <script src="{% static 'templates/custom_admin_panel/assets/pages/jquery.sweet-alert.init.js' %}"></script>
+
+    <!-- App Js -->
+    <script src="{% static 'templates/custom_admin_panel/assets/js/jquery.app.js' %}"></script>
+    
+    <script>
+        $(document).ready(function(){
+            var is_menu_open;
+
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                is_menu_open = false;
+            }
+            else
+                is_menu_open = true;
+
+            $("#r2_menu_btn,.r2_close_menu").click(function(){
+
+                if (is_menu_open){
+                    $("#page-right-content").css("margin-left", "0px");
+                    is_menu_open = false;
+                }
+                else {
+                    $("#page-right-content").css("margin-left", "240px");
+                    is_menu_open = true;
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

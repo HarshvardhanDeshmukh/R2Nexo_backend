@@ -1,0 +1,54 @@
+.r2_loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #00000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.r2_loader > img {
+    width: 20%;
+    margin-top: 10%;
+}
+
+.r2_loader_text {
+    background-color: #000000ac;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+/* .nav>li>a>img {
+    display: none;
+} */
+
+.topbar .topbar-left {
+    float: left;
+    position: relative;
+    width: 240px;
+    z-index: 999;
+    background: #fff;
+}
+
+.r2-form-note {
+    font-size: 10px;
+}
+
+.as_ans_img {
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+
+.as_ans_img:hover {
+    box-shadow:  0 0 15px 5px lightgrey;
+}
+
+#page-right-content {
+    min-height: 1000px !important;
+}
+
+.r2-float-right {
+    float: right;
+}

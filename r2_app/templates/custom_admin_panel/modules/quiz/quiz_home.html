@@ -1,0 +1,141 @@
+<div ng-controller="quiz_ctrl">
+    
+    <div class="row">
+            <label class="col-sm-1 control-label">Batch</label>
+            <div class="col-sm-4">
+                <select
+                    class="form-control"
+                    ng-model="selected_batch"
+                    ng-options="batch.id+'. '+batch.batch_name for batch in batches"
+                    ng-change="changed_batch()" >
+                </select>
+            </div>
+            <div class="col-sm-2"></div>
+            <label class="col-sm-1 control-label">Quiz</label>
+            <div class="col-sm-4">
+                <select
+                    class="form-control"
+                    ng-model="selected_quiz"
+                    ng-options="quiz.quiz_id+'. '+quiz.quiz_desc for quiz in quizzes"
+                    ng-change="changed_quiz()" >
+                </select>
+            </div>
+    </div>
+
+    <a ng-show="selected_quiz.quiz_id" href="/admin/r2_app/quiz/{$ selected_quiz.quiz_id $}/delete/" target="_blank" class="btn btn-danger" style="position:relative;left: 90%;
+    margin-bottom: 10px;margin-top:10px;" >Delete Quiz</a>
+
+    <br>
+
+    <div ng-if="questions[current_question_index].question_text != null && selected_quiz != null">
+        <div class="row" style="border:2px solid grey; border-radius:10px; padding:20px;">
+            <div class="col-sm-6">
+
+
+                <button ng-click="previous_question()" class="btn btn-info">
+                    <i class="fa fa-chevron-circle-left"></i> &nbsp; Previous
+                </button>
+                
+                &nbsp;
+                Question {$ current_question_index+1 $}:
+                &nbsp;
+
+                <button ng-click="next_question()" class="btn btn-info">
+                    Next &nbsp; <i class="fa fa-chevron-circle-right"></i>
+                </button>
+
+                <br>
+                <br>
+                
+                {$ questions[current_question_index].question_text $}
+                
+        
+                <br>
+                <br>
+                <div ng-if="questions[current_question_index].question_type == 'MCQ'" >
+                    A: {$ questions[current_question_index].question_op_a $} 
+                    <span ng-if="questions[current_question_index].question_correct_ans == 'A'"><i class="mdi mdi-check correct-answer"></i></span>
+                    <br>
+                    <br>
+                    B: {$ questions[current_question_index].question_op_b $}
+                    <span ng-if="questions[current_question_index].question_correct_ans == 'B'"><i class="mdi mdi-check correct-answer"></i></span>
+                    <br>
+                    <br>
+                    C: {$ questions[current_question_index].question_op_c $}
+                    <span ng-if="questions[current_question_index].question_correct_ans == 'C'"><i class="mdi mdi-check correct-answer"></i></span>
+                    <br>
+                    <br>
+                    D: {$ questions[current_question_index].question_op_d $}
+                    <span ng-if="questions[current_question_index].question_correct_ans == 'D'"><i class="mdi mdi-check correct-answer"></i></span>
+                </div>
+                <br>
+            </div>
+            <div class="col-sm-6">
+                <h4>{$  selected_batch.company_name $}</h4>
+                <img ng-src={$'/media/'+selected_batch.company_logo$} style="width:50%;" />
+            </div>
+        </div>
+
+        <div ng-if="questions[current_question_index].answers[0] != null">
+            <hr>
+            <h3>Answers:</h3>
+            <hr>
+    
+            <table class="table table-bordered">
+                <tr>
+                    <th>Student</th>
+                    <th>Answer</th>
+                    <th>Status</th>
+                    <th>Seen</th>
+                    <th>Attempt</th>
+                    <th>Other Marks (Enter marks here)</th>
+                </tr>
+                <tr ng-repeat="ans in questions[current_question_index].answers">
+                    <td>
+                        <a ng-href={$'/admin/r2_app/student/'+ans.student_id$} target="_blank">
+                            {$ ans.student_name $}
+                        </a>
+                    </td>
+                    <td>{$ ans.student_ans $}</td>
+                    <td>
+                        <select name="" ng-model="ans.answer_status" id="">
+                            <option value="Checked">Checked</option>
+                            <option value="Pending">Pending</option>
+                        </select>
+                        <!-- {$ ans.answer_status $} -->
+                    </td>
+                    <td>{$ ans.answer_seen $}</td>
+                    <td>{$ ans.answer_attempt $}</td>
+                    <td>
+                        <input type="number" ng-model="ans.other_marks" ng-change="change_marks(questions[current_question_index].answers.indexOf(ans))" />
+                        <!-- {$ ans.other_marks $} -->
+                    </td>
+                </tr>
+            </table>
+    
+            
+    
+            <center>
+                <button class="btn btn-success" ng-click="submit_quiz_review(questions[current_question_index].answers)">
+                    Submit reviews for these answers and go to next question
+                </button>
+            </center>
+
+        </div>
+
+        <div ng-if="questions[current_question_index].answers[0] == null">
+            <h3>No one answered this question yet.</h3>
+        </div>
+
+    </div>
+
+    <div ng-if="questions[current_question_index].question_text == null && selected_quiz != null">
+        <h3>Oops..! no questions in this quiz</h3>
+    </div>
+    
+    <div ng-if="selected_quiz == null">
+        <h3>Oops..! no quiz in this batch</h3>
+    </div>
+    
+
+</div>

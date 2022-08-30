@@ -1,0 +1,98 @@
+<div ng-controller="badgeCtrl">
+
+    <!-- LOADER FOR THIS CONTROLLER -->
+    <div class="r2_loader" ng-if="show_loader">
+        <img src="/static/templates/custom_admin_panel/assets/images/loader4.gif" alt="">
+        <br>
+        <h2 class="r2_loader_text">Loading Badges...</h2>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-12">
+            <h4 style="margin-bottom:35px;">List of Badges
+                <a href="/admin/r2_app/badge/add/" target="_blank" style="margin-left:20px;" class="btn btn-success r2-float-right">
+                    Add New Badge &nbsp;
+                    <i class="fa fa-plus-square"></i>
+                </a>
+            </h4>
+
+            <div class="table-responsive m-b-20">
+                <table ng-table="tableParams" class="table table-bordered table-striped" show-filter="true">
+
+                    <tr ng-repeat="badge in $data">
+                        <td title="'Badge Image'">
+                            <img ng-src={$'/media/'+badge.image$} height="50" />
+                        </td>
+                        <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
+                            {$ badge.name $}
+                        </td>
+                        <td title="'Description'" filter="{ desc: 'text'}" sortable="'desc'">
+                            {$ badge.desc $}
+                        </td>
+                        <td title="'Edit'">
+                            <a class="btn btn-info" target="_blank" href="/admin/r2_app/badge/{$badge.id$}/change/">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                        </td>
+                        <td title="'Delete'">
+                            <a class="btn btn-danger" target="_blank" href="/admin/r2_app/badge/{$badge.id$}/delete/">
+                                <i class="fa fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="addBadgeModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$new_badge.name$}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">Name*:</div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Name of the Badge" ng-model="new_badge.name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Description*:</div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Description of the Badge" ng-model="new_badge.desc" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-3">Image:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="new_badge.image" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" ng-click="add_new_badge()" data-dismiss="modal">Add New Badge</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</div>

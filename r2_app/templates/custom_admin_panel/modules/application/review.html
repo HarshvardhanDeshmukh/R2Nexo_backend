@@ -1,0 +1,106 @@
+<div ng-controller="application_review">
+    
+    
+    <div class="row">
+        <div class="col-sm-2">
+            <h4 style="float:right">Select Batch:</h4>
+        </div>
+        <div class="col-sm-4">
+            <select class="form-control" ng-model="selected_batch" ng-options="batch.batch_name for batch in batches" ng-change="changed_batch()">
+            </select>
+        </div>
+        <div class="col-sm-2">
+            <h4 style="float:right">Select Topic:</h4>
+        </div>
+        <div class="col-sm-4">
+            <select class="form-control" ng-model="selected_topic" ng-options="topic.topic_text for topic in topics" ng-change="changed_topic()">
+            </select>
+        </div>
+    </div>
+    
+    <a ng-show="selected_topic" href="/admin/r2_app/applicationtopic/{$ selected_topic.topic_id $}/delete/" target="_blank" class="btn btn-danger" >Delete</a>
+
+    <hr>
+
+    <h4 style="margin-bottom:35px;">List of Applications
+        <a href="/admin/r2_app/applicationtopic/add/" target="_blank" style="margin-left:20px;" class="btn btn-success r2-float-right">
+            Add New Topic &nbsp;
+            <i class="fa fa-plus-square"></i>
+        </a>
+    </h4>
+
+    <div ng-if="topics.length == 0">
+        <center>
+            <br>
+            <br>
+            <h4>No topic in this batch!</h4>
+        </center>
+    </div>
+
+    <div ng-if="topics.length != 0">
+
+        <div ng-if="apps.length == 0">
+            <center>
+                <br>
+                <br>
+                No student submitted this application yet!
+            </center>
+        </div>
+
+        <div ng-if="apps.length != 0">
+
+            <!-- TABLE -->
+            <div class="table-responsive m-b-20">
+                <table ng-table="tableParams" class="table table-bordered table-striped" show-filter="true">
+
+                    <tr ng-repeat="app in $data">
+                        <td title="'Student'" filter="{ student_name: 'text'}" sortable="'student_name'">
+                            {$ app.student_name $}
+                        </td>
+                        <td title="'Instance where applied'" filter="{ instance: 'text'}" sortable="'instance'">
+                            {$ app.instance $}
+                        </td>
+                        <td title="'What was the effect?'" filter="{ effect: 'text'}" sortable="'effect'">
+                            {$ app.effect $}
+                        </td>
+                        <td title="'What went well?'" filter="{ well: 'text'}" sortable="'well'">
+                            {$ app.well $}
+                        </td>
+                        <td title="'What did not go as expected?'" filter="{ unexpected: 'text'}" sortable="'unexpected'">
+                            {$ app.unexpected $}
+                        </td>
+                        <td title="'Reflections'" filter="{ reflection: 'text'}" sortable="'reflection'">
+                            {$ app.reflection $}
+                        </td>
+                        <td title="'What will I do differently next time?'" filter="{ different: 'text'}" sortable="'different'">
+                            {$ app.different $}
+                        </td>
+                        <td title="'Marks (Enter marks below)'" filter="{ app_other_marks: 'text'}" sortable="'app_other_marks'">
+                            <input type="text" ng-model="app.app_other_marks" class="form-control">
+                        </td>
+
+                        <!-- <td title="'Edit'">
+                                <button class="btn btn-info" ng-click="edit_batch(batch)" data-toggle="modal" data-target="#updateBatchModel" >Edit</button>
+                            </td>
+                            <td title="'Delete'">
+                                <button class="btn btn-danger" ng-click="delete_batch(batch)">Delete</button>
+                            </td> -->
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <hr>
+
+            <center>
+                <button ng-click="save_changes()" class="btn btn-success">
+                    Save Changes
+                </button>
+            </center>
+            
+        </div>
+        
+    </div>
+
+</div>

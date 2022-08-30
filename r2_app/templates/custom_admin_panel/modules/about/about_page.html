@@ -1,0 +1,14 @@
+<div ng-controller="about_ctrl">
+    
+    <h1>
+        This is the about page.
+    </h1>
+    <button ng-click="get_students()">click here to get all students</button>
+    
+    <ul>
+        <div ng-repeat="student in students">
+            <li>{$ student.student_first_name $}</li>
+        </div>
+    </ul>
+
+</div>

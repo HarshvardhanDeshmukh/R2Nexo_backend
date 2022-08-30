@@ -1,0 +1,133 @@
+<div ng-controller="review_as_ctrl">
+
+    <div class="row">
+
+        <div class="col-sm-3"></div>
+
+        <h4 class="col-sm-2 control-label">Select Batch: </h4>
+
+        <div class="col-sm-4">
+            <select class="form-control" ng-model="selected_batch" ng-options="batch.id+'. '+batch.batch_name for batch in batches" ng-change="changed_batch()">
+            </select>
+        </div>
+
+        <div class="col-sm-3">
+            <a style="float:right;" href="/admin/r2_app/assignment/add?batch={$selected_batch.id$}" target="_blank" class="btn btn-success">
+                Add New Assignment &nbsp;
+                <i class="fa fa-plus-square"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <a ng-show="assignments.length != 0" href="/admin/r2_app/assignment/{$ selected_assignment.ass_id $}/delete/" target="_blank" class="btn btn-danger" >Delete</a>
+
+    <br>
+    <br>
+
+    <div ng-if= "assignments.length != 0">
+        <div class="row well">
+            <div class="col-sm-6">
+
+
+                <div class="row">
+                    
+                    <button ng-click="previous_assign()" class="btn btn-info col-sm-3">
+                        <i class="fa fa-chevron-circle-left"></i>
+                        &nbsp; Previous
+                    </button>
+
+                    <div class="col-sm-6">
+                        <center>
+                            {$ selected_assignment.ass_title $}
+                        </center>
+                    </div>
+
+                    <button ng-click="next_assign()" class="btn btn-info col-sm-3">
+                        Next &nbsp; <i class="fa fa-chevron-circle-right"></i>
+                    </button>
+
+                </div>
+
+                <br>
+                <div ckeditor="ckEditorOptions" ng-model="selected_assignment.ass_text"></div> 
+                <!-- {$ selected_assignment.ass_text $} -->
+
+            </div>
+            <div class="col-sm-6">
+                <center>
+                    <img ng-if="selected_assignment.ass_img != ''" ng-src={$'/media/'+selected_assignment.ass_img$} style="width:50%;" />
+                    <br>
+                    <br>
+                    <a class="btn btn-info" ng-if="selected_assignment.ass_video != null" href="{$ selected_assignment.ass_video $}">
+                        Watch Video
+                    </a>
+                    <p ng-if="selected_assignment.ass_video == null && selected_assignment.ass_img == ''">
+                        No Image/Video in this Assignment
+                    </p>
+                </center>
+            </div>
+        </div>
+
+        <div ng-if="selected_assignment.ass_ans.length != 0" >
+            <h3>Answers:</h3>
+        
+            <div ng-repeat="ans in selected_assignment.ass_ans">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <center>
+                            <br>
+                            <img class="as_ans_img" width="100" ng-src={$'/media/'+ans.student_img$} alt="">
+                        </center>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>
+                            {$ ans.student_first_name $} {$ ans.student_last_name $}
+                        </h4>
+                        <hr>
+                        <p class="well">
+                            {$ ans.student_ans $}
+                        </p>
+                        <p style="font-size: 12px;">
+                            {$ ans.submitted_at $}
+                        </p>
+                    </div>
+                    <div class="col-sm-2">
+                        Enter marks below:
+                        <input type="text" ng-model="ans.student_marks" placeholder="marks" class="form-control" name="" id="">
+                    </div>
+                </div>
+                <hr>
+            </div>
+            
+            <center>
+                <button style="float: right" ng-click="submit_review()" class="btn btn-success">
+                    Submit Review
+                </button>
+            </center>
+
+        </div>
+
+        <div ng-if="selected_assignment.ass_ans.length == 0" >
+            <br>
+            <br>
+            <center>
+                <h4>
+                    Seems like no student submitted this assignmnet yet!
+                </h4>
+            </center>
+        </div>
+
+    </div>
+
+    <div ng-if= "assignments.length == 0" class="well" style="text-align:center;">
+        <h4>Oops..! no assignments in this batch</h4>
+        <br>
+        <a href="/admin/r2_app/assignment/add?batch={$selected_batch.id$}" target="_blank" class="btn btn-success">
+            Add New Assignment &nbsp;
+            <i class="fa fa-plus-square"></i>
+        </a>
+    </div>
+
+
+</div>

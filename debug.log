@@ -1,0 +1,1792 @@
+2022-08-30 12:09:24,953 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 12:14:20,445 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 12:16:34,144 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\AppData\Local\Programs\Python\Python310\Lib\site-packages\django\utils\encoding.py changed, reloading.
+2022-08-30 12:53:51,693 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 12:56:17,002 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 12:57:15,137 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\urls.py changed, reloading.
+2022-08-30 12:57:16,254 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 12:57:35,354 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2_app\custom_admin_urls.py changed, reloading.
+2022-08-30 12:57:36,503 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 13:05:56,521 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2_app\models.py changed, reloading.
+2022-08-30 13:05:57,754 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 13:14:13,678 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2_app\manager\user_manage.py changed, reloading.
+2022-08-30 13:14:14,977 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 14:17:32,878 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 14:17:34,192 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 14:17:42,556 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 14:17:43,678 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 14:18:15,692 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 14:18:16,828 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 14:18:21,942 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 14:18:24,024 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 14:18:24,122 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/home/home_page_ctrl.js HTTP/1.1" 200 59
+2022-08-30 14:18:24,124 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/r2app.js HTTP/1.1" 200 5774
+2022-08-30 14:18:24,130 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/quiz_ctrl.js HTTP/1.1" 200 4397
+2022-08-30 14:18:24,138 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_ctrl.js HTTP/1.1" 200 8163
+2022-08-30 14:18:24,144 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/common/css/r2style.css HTTP/1.1" 200 858
+2022-08-30 14:18:24,144 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/assets/js/ng-table.min.js HTTP/1.1" 200 28910
+2022-08-30 14:18:24,149 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/new_quiz_ctrl.js HTTP/1.1" 200 4722
+2022-08-30 14:18:24,158 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/student/student_ctrl.js HTTP/1.1" 200 10792
+2022-08-30 14:18:24,159 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/post/post_ctrl.js HTTP/1.1" 200 9277
+2022-08-30 14:18:24,163 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/application/review.js HTTP/1.1" 200 3723
+2022-08-30 14:18:24,178 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/assignment/review/review_as.js HTTP/1.1" 200 3661
+2022-08-30 14:18:24,182 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/badge/badge.js HTTP/1.1" 200 2106
+2022-08-30 14:18:24,189 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_perf_ctrl.js HTTP/1.1" 200 4699
+2022-08-30 14:18:24,244 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/node_modules/angular/angular.js HTTP/1.1" 200 1304709
+2022-08-30 14:18:24,726 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 14:18:24,962 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 14:18:25,082 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 14:18:25,084 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 14:18:28,548 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_as/ HTTP/1.1" 200 4765
+2022-08-30 14:18:28,658 [Thread-3 (pr] [WARNI] [django.request      ]  Not Found: /media/
+2022-08-30 14:18:28,659 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 14:18:28,665 [Thread-3 (pr] [WARNI] [django.server       ]  "GET /media/ HTTP/1.1" 404 15154
+2022-08-30 14:18:28,673 [Thread-1 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 14:18:28,675 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 14:18:29,731 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /admin/r2_app/assignment/add?batch= HTTP/1.1" 301 0
+2022-08-30 14:18:29,962 [Thread-1 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/assignment/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 14:18:29,992 [Thread-1 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/assignment/add/ HTTP/1.1" 500 191999
+2022-08-30 14:19:37,540 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 14:19:39,042 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 14:26:57,159 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 14:27:13,933 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 14:27:15,537 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 14:27:15,996 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 14:27:16,187 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 14:27:16,345 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 14:27:16,347 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 14:27:18,276 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 14:27:18,462 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 14:27:18,471 [Thread-1 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 14:27:18,473 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 14:27:19,625 [Thread-1 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 14:27:19,657 [Thread-1 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192020
+2022-08-30 14:28:11,644 [Thread-3 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 14:28:12,629 [Thread-3 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191512
+2022-08-30 14:28:17,758 [Thread-3 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 14:28:17,774 [Thread-3 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 14:58:45,893 [Thread-4 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 14:58:45,909 [Thread-4 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 14:58:45,916 [Thread-4 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 14:58:47,295 [Thread-4 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 14:58:47,322 [Thread-4 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 15:00:56,084 [Thread-5 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:00:56,113 [Thread-5 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 15:02:10,155 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/batch_home/ HTTP/1.1" 200 7948
+2022-08-30 15:02:10,339 [Thread-6 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:02:10,346 [Thread-6 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:02:10,351 [Thread-6 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:02:23,741 [Thread-7 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:02:23,749 [Thread-7 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:02:23,753 [Thread-7 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:02:25,516 [Thread-8 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:02:25,550 [Thread-8 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 15:07:00,773 [Thread-9 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:07:00,790 [Thread-9 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 15:16:26,567 [Thread-10 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:16:26,581 [Thread-10 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:16:26,585 [Thread-10 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:16:33,121 [Thread-11 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:16:33,125 [Thread-11 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:16:33,126 [Thread-11 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:16:37,780 [Thread-11 (p] [INFO ] [django.server       ]  "GET /custom_admin_panel/student_home/ HTTP/1.1" 200 16347
+2022-08-30 15:16:37,896 [Thread-11 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:16:37,900 [Thread-11 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:16:37,901 [Thread-12 (p] [INFO ] [r2.logger           ]  Inside get_students API: Getting all student info
+2022-08-30 15:16:37,902 [Thread-11 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:16:37,909 [Thread-12 (p] [ERROR] [r2.logger           ]  Error in get_students(): column r2_app_student.id does not exist
+LINE 1: SELECT "r2_app_student"."student_user_id_id", "r2_app_studen...
+                                                      ^
+
+2022-08-30 15:16:37,911 [Thread-12 (p] [INFO ] [django.server       ]  "POST /get_students/ HTTP/1.1" 200 239
+2022-08-30 15:16:49,403 [Thread-13 (p] [INFO ] [django.server       ]  "GET /custom_admin_panel/post_home/ HTTP/1.1" 200 11585
+2022-08-30 15:16:49,524 [Thread-15 (p] [WARNI] [django.request      ]  Not Found: /custom_admin_panel/{$ post.img_url $}
+2022-08-30 15:16:49,540 [Thread-15 (p] [WARNI] [django.server       ]  "GET /custom_admin_panel/%7B$%20post.img_url%20$%7D HTTP/1.1" 404 18440
+2022-08-30 15:16:49,545 [Thread-13 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:16:49,546 [Thread-14 (p] [INFO ] [r2.logger           ]  Inside admin_get_posts API: Getting all posts
+2022-08-30 15:16:49,553 [Thread-13 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:16:49,557 [Thread-13 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:16:49,562 [Thread-14 (p] [ERROR] [r2.logger           ]  Error in admin_get_posts API: fetch posts: column r2_app_post.id does not exist
+LINE 1: SELECT "r2_app_post"."id", "r2_app_post"."post_title", "r2_a...
+               ^
+
+2022-08-30 15:16:49,565 [Thread-14 (p] [INFO ] [django.server       ]  "POST /admin_get_posts/ HTTP/1.1" 200 192
+2022-08-30 15:16:56,939 [Thread-16 (p] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_as/ HTTP/1.1" 200 4765
+2022-08-30 15:16:57,033 [Thread-17 (p] [WARNI] [django.request      ]  Not Found: /media/
+2022-08-30 15:16:57,041 [Thread-17 (p] [WARNI] [django.server       ]  "GET /media/ HTTP/1.1" 404 15154
+2022-08-30 15:16:57,060 [Thread-16 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:16:57,067 [Thread-16 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:16:57,069 [Thread-16 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:16:58,745 [Thread-16 (p] [INFO ] [django.server       ]  "GET /admin/r2_app/assignment/add?batch= HTTP/1.1" 301 0
+2022-08-30 15:16:58,925 [Thread-16 (p] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/assignment/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:16:58,957 [Thread-16 (p] [ERROR] [django.server       ]  "GET /admin/r2_app/assignment/add/ HTTP/1.1" 500 191354
+2022-08-30 15:17:05,266 [Thread-20 (p] [WARNI] [django.request      ]  Not Found: /custom_admin_panel/{$ post.img_url $}
+2022-08-30 15:17:05,268 [Thread-20 (p] [WARNI] [django.server       ]  "GET /custom_admin_panel/%7B$%20post.img_url%20$%7D HTTP/1.1" 404 18440
+2022-08-30 15:17:05,285 [Thread-19 (p] [INFO ] [r2.logger           ]  Inside admin_get_posts API: Getting all posts
+2022-08-30 15:17:05,286 [Thread-18 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:17:05,291 [Thread-19 (p] [ERROR] [r2.logger           ]  Error in admin_get_posts API: fetch posts: column r2_app_post.id does not exist
+LINE 1: SELECT "r2_app_post"."id", "r2_app_post"."post_title", "r2_a...
+               ^
+
+2022-08-30 15:17:05,296 [Thread-19 (p] [INFO ] [django.server       ]  "POST /admin_get_posts/ HTTP/1.1" 200 192
+2022-08-30 15:17:05,299 [Thread-18 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:17:05,302 [Thread-18 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:17:10,147 [Thread-18 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:17:10,154 [Thread-18 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:17:10,158 [Thread-18 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:17:11,938 [Thread-21 (p] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:17:11,968 [Thread-21 (p] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 15:18:48,652 [Thread-22 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:18:48,659 [Thread-22 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:18:48,661 [Thread-22 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:33:03,958 [Thread-23 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:33:03,968 [Thread-23 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:33:03,969 [Thread-23 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:33:46,286 [Thread-24 (p] [INFO ] [django.server       ]  "GET /custom_admin_panel/view_badge HTTP/1.1" 301 0
+2022-08-30 15:33:46,354 [Thread-24 (p] [INFO ] [django.server       ]  "GET /custom_admin_panel/view_badge/ HTTP/1.1" 200 4133
+2022-08-30 15:33:46,434 [Thread-24 (p] [INFO ] [r2.logger           ]  Inside admin_view_badges API: fetching badges
+2022-08-30 15:33:46,441 [Thread-24 (p] [ERROR] [r2.logger           ]  Error in admin_view_badges API: fetching badges: relation "r2_app_badge" does not exist
+LINE 1: ...r2_app_badge"."desc", "r2_app_badge"."image" FROM "r2_app_ba...
+                                                             ^
+
+2022-08-30 15:33:46,444 [Thread-24 (p] [INFO ] [django.server       ]  "POST /admin_view_badges/ HTTP/1.1" 200 246
+2022-08-30 15:33:51,226 [Thread-25 (p] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/badge/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:33:51,239 [Thread-25 (p] [ERROR] [django.server       ]  "GET /admin/r2_app/badge/add/ HTTP/1.1" 500 190910
+2022-08-30 15:34:09,483 [Thread-26 (p] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/badge/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:34:09,504 [Thread-26 (p] [ERROR] [django.server       ]  "GET /admin/r2_app/badge/add/ HTTP/1.1" 500 190910
+2022-08-30 15:44:09,787 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 15:44:14,135 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 15:44:16,614 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 15:44:16,688 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/node_modules/angular/angular.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,701 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,701 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/quiz_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,702 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/home/home_page_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,702 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/r2app.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,703 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/assets/js/ng-table.min.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,703 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/post/post_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,711 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/new_quiz_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,712 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/student/student_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,719 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/assignment/review/review_as.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,721 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/badge/badge.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,721 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_perf_ctrl.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,732 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/application/review.js HTTP/1.1" 304 0
+2022-08-30 15:44:16,734 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/common/css/r2style.css HTTP/1.1" 304 0
+2022-08-30 15:44:17,080 [Thread-3 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 15:44:17,241 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 15:44:17,387 [Thread-3 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 15:44:17,388 [Thread-3 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 15:44:19,345 [Thread-7 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 15:44:19,514 [Thread-7 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:44:19,537 [Thread-7 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:44:19,538 [Thread-7 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:44:20,669 [Thread-7 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:44:20,688 [Thread-7 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192020
+2022-08-30 15:44:35,178 [Thread-8 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/student_home/ HTTP/1.1" 200 16347
+2022-08-30 15:44:35,321 [Thread-8 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:44:35,326 [Thread-8 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:44:35,329 [Thread-8 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:44:35,335 [Thread-9 (pr] [INFO ] [r2.logger           ]  Inside get_students API: Getting all student info
+2022-08-30 15:44:35,340 [Thread-9 (pr] [ERROR] [r2.logger           ]  Error in get_students(): column r2_app_student.id does not exist
+LINE 1: SELECT "r2_app_student"."student_user_id_id", "r2_app_studen...
+                                                      ^
+
+2022-08-30 15:44:35,344 [Thread-9 (pr] [INFO ] [django.server       ]  "POST /get_students/ HTTP/1.1" 200 239
+2022-08-30 15:44:39,345 [Thread-10 (p] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:44:39,349 [Thread-10 (p] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:44:39,351 [Thread-10 (p] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:47:02,150 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 15:47:05,655 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 15:47:07,064 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 15:47:07,452 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 15:47:07,600 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 15:47:07,860 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 15:47:07,864 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 15:47:08,562 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/student_home/ HTTP/1.1" 200 16347
+2022-08-30 15:47:08,694 [Thread-2 (pr] [INFO ] [r2.logger           ]  Inside get_students API: Getting all student info
+2022-08-30 15:47:08,695 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:47:08,700 [Thread-2 (pr] [ERROR] [r2.logger           ]  Error in get_students(): column r2_app_student.id does not exist
+LINE 1: SELECT "r2_app_student"."student_user_id_id", "r2_app_studen...
+                                                      ^
+
+2022-08-30 15:47:08,702 [Thread-1 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:47:08,704 [Thread-2 (pr] [INFO ] [django.server       ]  "POST /get_students/ HTTP/1.1" 200 239
+2022-08-30 15:47:08,706 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:47:18,170 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/post_home/ HTTP/1.1" 200 11585
+2022-08-30 15:47:18,324 [Thread-5 (pr] [WARNI] [django.request      ]  Not Found: /custom_admin_panel/{$ post.img_url $}
+2022-08-30 15:47:18,327 [Thread-5 (pr] [WARNI] [django.server       ]  "GET /custom_admin_panel/%7B$%20post.img_url%20$%7D HTTP/1.1" 404 18440
+2022-08-30 15:47:18,332 [Thread-3 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:47:18,337 [Thread-3 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:47:18,341 [Thread-3 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:47:18,359 [Thread-4 (pr] [INFO ] [r2.logger           ]  Inside admin_get_posts API: Getting all posts
+2022-08-30 15:47:18,364 [Thread-4 (pr] [ERROR] [r2.logger           ]  Error in admin_get_posts API: fetch posts: column r2_app_post.id does not exist
+LINE 1: SELECT "r2_app_post"."id", "r2_app_post"."post_title", "r2_a...
+               ^
+
+2022-08-30 15:47:18,368 [Thread-4 (pr] [INFO ] [django.server       ]  "POST /admin_get_posts/ HTTP/1.1" 200 192
+2022-08-30 15:47:24,721 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_as/ HTTP/1.1" 200 4765
+2022-08-30 15:47:24,830 [Thread-7 (pr] [WARNI] [django.request      ]  Not Found: /media/
+2022-08-30 15:47:24,847 [Thread-7 (pr] [WARNI] [django.server       ]  "GET /media/ HTTP/1.1" 404 15154
+2022-08-30 15:47:24,865 [Thread-6 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 15:47:24,871 [Thread-6 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 15:47:24,873 [Thread-6 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 15:47:26,320 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /admin/r2_app/assignment/add?batch= HTTP/1.1" 301 0
+2022-08-30 15:47:26,639 [Thread-6 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/assignment/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 15:47:26,661 [Thread-6 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/assignment/add/ HTTP/1.1" 500 191999
+2022-08-30 16:00:08,680 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 16:00:09,561 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 16:00:29,337 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 16:00:29,913 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 16:02:07,270 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 16:02:08,539 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 16:02:55,465 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 16:03:03,490 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 16:03:05,113 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 16:03:05,520 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 16:03:05,727 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 16:03:05,844 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 16:03:05,845 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 16:03:07,624 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 16:03:07,714 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 16:03:07,725 [Thread-1 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 16:03:07,727 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 16:03:08,818 [Thread-1 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 16:03:08,831 [Thread-1 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192020
+2022-08-30 16:07:16,672 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_as/ HTTP/1.1" 200 4765
+2022-08-30 16:07:16,789 [Thread-3 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 16:07:16,797 [Thread-4 (pr] [WARNI] [django.request      ]  Not Found: /media/
+2022-08-30 16:07:16,801 [Thread-4 (pr] [WARNI] [django.server       ]  "GET /media/ HTTP/1.1" 404 15154
+2022-08-30 16:07:16,803 [Thread-3 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 16:07:16,807 [Thread-3 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 16:07:24,346 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/batch_home/ HTTP/1.1" 200 7948
+2022-08-30 16:07:24,457 [Thread-3 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 16:07:24,463 [Thread-3 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 16:07:24,466 [Thread-3 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 16:07:45,829 [Thread-3 (pr] [INFO ] [r2.logger           ]  Inside add_batch API: Adding new Batch
+2022-08-30 16:07:45,835 [Thread-3 (pr] [ERROR] [r2.logger           ]  Error in add_batch API: creating new batch: column "batch_name" of relation "r2_app_batch" does not exist
+LINE 1: INSERT INTO "r2_app_batch" ("batch_company_name", "batch_nam...
+                                                          ^
+
+2022-08-30 16:07:45,837 [Thread-3 (pr] [INFO ] [django.server       ]  "POST /add_batch/ HTTP/1.1" 200 254
+2022-08-30 16:09:19,404 [Thread-5 (pr] [INFO ] [r2.logger           ]  Inside add_batch API: Adding new Batch
+2022-08-30 16:09:19,408 [Thread-5 (pr] [ERROR] [r2.logger           ]  Error in add_batch API: creating new batch: column "batch_name" of relation "r2_app_batch" does not exist
+LINE 1: INSERT INTO "r2_app_batch" ("batch_company_name", "batch_nam...
+                                                          ^
+
+2022-08-30 16:09:19,410 [Thread-5 (pr] [INFO ] [django.server       ]  "POST /add_batch/ HTTP/1.1" 200 254
+2022-08-30 16:20:41,830 [Thread-6 (pr] [INFO ] [r2.logger           ]  Inside add_batch API: Adding new Batch
+2022-08-30 16:20:41,842 [Thread-6 (pr] [ERROR] [r2.logger           ]  Error in add_batch API: creating new batch: column "batch_name" of relation "r2_app_batch" does not exist
+LINE 1: INSERT INTO "r2_app_batch" ("batch_company_name", "batch_nam...
+                                                          ^
+
+2022-08-30 16:20:41,845 [Thread-6 (pr] [INFO ] [django.server       ]  "POST /add_batch/ HTTP/1.1" 200 254
+2022-08-30 16:21:08,471 [Thread-7 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/view_badge/ HTTP/1.1" 200 4133
+2022-08-30 16:21:08,567 [Thread-7 (pr] [INFO ] [r2.logger           ]  Inside admin_view_badges API: fetching badges
+2022-08-30 16:21:08,569 [Thread-7 (pr] [ERROR] [r2.logger           ]  Error in admin_view_badges API: fetching badges: relation "r2_app_badge" does not exist
+LINE 1: ...r2_app_badge"."desc", "r2_app_badge"."image" FROM "r2_app_ba...
+                                                             ^
+
+2022-08-30 16:21:08,571 [Thread-7 (pr] [INFO ] [django.server       ]  "POST /admin_view_badges/ HTTP/1.1" 200 246
+2022-08-30 16:21:13,080 [Thread-8 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/badge/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 16:21:13,094 [Thread-8 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/badge/add/ HTTP/1.1" 500 190910
+2022-08-30 17:12:07,853 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 17:12:14,078 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 17:12:15,905 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 17:12:15,983 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/node_modules/angular/angular.js HTTP/1.1" 304 0
+2022-08-30 17:12:15,995 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/assets/js/ng-table.min.js HTTP/1.1" 304 0
+2022-08-30 17:12:15,995 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/r2app.js HTTP/1.1" 304 0
+2022-08-30 17:12:15,995 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:15,996 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/quiz_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:15,996 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/home/home_page_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:15,996 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/new_quiz_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,000 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/common/css/r2style.css HTTP/1.1" 304 0
+2022-08-30 17:12:16,001 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/student/student_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,007 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/application/review.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,009 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/post/post_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,009 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_perf_ctrl.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,011 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/assignment/review/review_as.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,012 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/badge/badge.js HTTP/1.1" 304 0
+2022-08-30 17:12:16,311 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 17:12:16,467 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 17:12:16,618 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 17:12:16,620 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 17:12:18,125 [Thread-7 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 17:12:18,215 [Thread-7 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 17:12:18,224 [Thread-7 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 17:12:18,227 [Thread-7 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 17:12:20,078 [Thread-7 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 17:12:20,117 [Thread-7 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192020
+2022-08-30 17:15:46,545 [Thread-8 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 17:15:46,557 [Thread-8 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191375
+2022-08-30 17:18:43,174 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 17:18:44,303 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 17:18:48,451 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 17:18:49,914 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 17:18:50,388 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 17:18:50,540 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 17:18:50,651 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 17:18:50,653 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 17:18:52,537 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 17:18:52,719 [Thread-3 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 17:18:52,723 [Thread-3 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 17:18:52,725 [Thread-3 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 17:18:54,029 [Thread-3 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularBootstrap3Templates" attribute/class
+2022-08-30 17:18:54,044 [Thread-3 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192120
+2022-08-30 17:35:15,360 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2_app\admin.py changed, reloading.
+2022-08-30 17:35:16,766 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 17:35:21,322 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 17:35:21,600 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 17:35:25,834 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 17:35:26,216 [Thread-2 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 17:35:26,408 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 17:35:26,513 [Thread-2 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 17:35:26,514 [Thread-2 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 17:35:28,340 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 17:35:28,423 [Thread-2 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 17:35:28,433 [Thread-2 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 17:35:28,435 [Thread-2 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 17:35:29,726 [Thread-2 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularBootstrap3Templates" attribute/class
+2022-08-30 17:35:29,746 [Thread-2 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192120
+2022-08-30 17:42:30,539 [Thread-4 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularBootstrap3Templates" attribute/class
+2022-08-30 17:42:30,557 [Thread-4 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191475
+2022-08-30 18:21:47,851 [Thread-5 (pr] [WARNI] [django.security.csrf]  Forbidden (CSRF cookie not set.): /
+2022-08-30 18:21:47,853 [Thread-5 (pr] [WARNI] [django.server       ]  "POST / HTTP/1.1" 403 2870
+2022-08-30 18:22:59,133 [Thread-5 (pr] [ERROR] [django.request      ]  Internal Server Error: /add_post
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/add_post/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-08-30 18:22:59,140 [Thread-5 (pr] [ERROR] [django.server       ]  "POST /add_post HTTP/1.1" 500 70431
+2022-08-30 18:23:20,597 [Thread-6 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 18:23:20,607 [Thread-6 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 18:23:20,609 [Thread-6 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 18:23:22,315 [Thread-6 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularBootstrap3Templates" attribute/class
+2022-08-30 18:23:22,333 [Thread-6 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 191475
+2022-08-30 18:26:12,418 [MainThread  ] [INFO ] [django.utils.autorel]  C:\Users\Harsh\Desktop\Work\Tasks\R2Nexo_migrations\R2Nexo_backend\R2Nexo_backend\r2\settings.py changed, reloading.
+2022-08-30 18:26:14,197 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2022-08-30 18:26:19,846 [Thread-1 (pr] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 1590
+2022-08-30 18:26:21,828 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/ HTTP/1.1" 200 29643
+2022-08-30 18:26:21,910 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/node_modules/angular/angular.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,920 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/r2app.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,920 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/assets/js/ng-table.min.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,921 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/new_quiz_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,921 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,921 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/home/home_page_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,921 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/quiz/quiz_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,936 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/common/css/r2style.css HTTP/1.1" 304 0
+2022-08-30 18:26:21,936 [Thread-6 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/batch/batch_perf_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,936 [Thread-2 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/post/post_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,936 [Thread-4 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/student/student_ctrl.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,939 [Thread-3 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/application/review.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,939 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/assignment/review/review_as.js HTTP/1.1" 304 0
+2022-08-30 18:26:21,959 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /static/templates/custom_admin_panel/modules/badge/badge.js HTTP/1.1" 304 0
+2022-08-30 18:26:22,345 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_admin_counts API: Getting Admin Counts
+2022-08-30 18:26:22,489 [Thread-5 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/home_page/ HTTP/1.1" 200 4879
+2022-08-30 18:26:22,639 [Thread-1 (pr] [ERROR] [r2.logger           ]  Authentication fail: Invalid user
+2022-08-30 18:26:22,640 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_admin_counts/ HTTP/1.1" 200 88
+2022-08-30 18:26:23,854 [Thread-1 (pr] [INFO ] [django.server       ]  "GET /custom_admin_panel/review_application/ HTTP/1.1" 200 4238
+2022-08-30 18:26:23,950 [Thread-1 (pr] [INFO ] [r2.logger           ]  Inside get_all_batches API: Getting batch list
+2022-08-30 18:26:23,961 [Thread-1 (pr] [ERROR] [r2.logger           ]  Error in get_all_batches API: fetching data: column r2_app_batch.id does not exist
+LINE 1: SELECT "r2_app_batch"."id", "r2_app_batch"."batch_company_na...
+               ^
+
+2022-08-30 18:26:23,963 [Thread-1 (pr] [INFO ] [django.server       ]  "POST /get_all_batches/ HTTP/1.1" 200 99
+2022-08-30 18:26:25,074 [Thread-1 (pr] [ERROR] [django.request      ]  Internal Server Error: /admin/r2_app/applicationtopic/add/
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 31, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\__init__.py", line 4, in <module>
+    from .angular_base import BaseFieldsModifierMetaclass, NgFormBaseMixin
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\djng\forms\angular_base.py", line 151, in <module>
+    class NgBoundField(forms.BoundField):
+AttributeError: module 'django.forms.forms' has no attribute 'BoundField'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\options.py", line 1818, in _changeform_view
+    form = ModelForm(initial=initial)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\models.py", line 371, in __init__
+    super().__init__(
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 124, in __init__
+    renderer = get_default_renderer()
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 13, in get_default_renderer
+    renderer_class = import_string(settings.FORM_RENDERER)
+  File "C:\Users\Harsh\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\module_loading.py", line 33, in import_string
+    raise ImportError(
+ImportError: Module "djng.forms.renderers" does not define a "DjangoAngularTemplates" attribute/class
+2022-08-30 18:26:25,116 [Thread-1 (pr] [ERROR] [django.server       ]  "GET /admin/r2_app/applicationtopic/add/ HTTP/1.1" 500 192020

@@ -1,0 +1,356 @@
+<div ng-controller="student_ctrl">
+
+    <!-- LOADER FOR THIS CONTROLLER -->
+    <div class="r2_loader" ng-if="show_loader">
+        <img src="/static/templates/custom_admin_panel/assets/images/loader4.gif" alt="">
+        <br>
+        <h2 class="r2_loader_text">Loading Students...</h2>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-12">
+            <h4 style="margin-bottom:35px;">List of Students
+                <button style="margin-left:20px;" class="btn btn-success r2-float-right" data-toggle="modal" data-target="#addStudentModel">
+                    Add New Student &nbsp;
+                    <i class="fa fa-plus-square"></i>
+                </button>
+            </h4>
+
+            <div class="table-responsive m-b-20">
+                <table ng-table="tableParams" class="table table-bordered table-striped" show-filter="true">
+
+                    <tr ng-repeat="student in $data">
+                        <td title="'Profile picture'">
+                            <a href="{$'/media/'+student.picture_url$}" target="_blank">
+                                <img ng-click="show_iamge('/media/'+student.picture_url)" ng-src={$'/media/'+student.picture_url$} height="50" />
+                            </a>
+                        </td>
+                        <td title="'Name'" filter="{ full_name: 'text'}" sortable="'first_name'">
+                            <!-- <a href="/admin/r2_app/student/{$student.id$}" target="_blank"> -->
+                            {$ student.full_name $}
+                            <!-- </a> -->
+                        </td>
+                        <td title="'Batch'" filter="{ batch_name: 'text'}" sortable="'batch_name'">
+                            {$ student.batch_name $}
+                        </td>
+                        <td title="'Email'" filter="{ email: 'text'}" sortable="'email'">
+                            <a href="mailto:{$student.email$}">
+                                {$ student.email $}
+                            </a>
+                        </td>
+                        <td title="'Device'" filter="{ device: 'text'}" sortable="'device'">{$ student.device $}</td>
+                        <td title="'OS Version'" filter="{ os_version: 'text'}" sortable="'os_version'">{$ student.os_version $}</td>
+                        <td title="'App Version'" filter="{ app_version: 'text'}" sortable="'app_version'">{$ student.app_version $}</td>
+                        <td title="'Date Added'" filter="{ create_at: 'text'}" sortable="'create_at'">{$ student.create_at $}</td>
+                        <td title="'Badges'">
+                            <ul>
+                                <li ng-repeat="badge in student.badge_list" ng-show="badge.has">
+                                    {$ badge.name $}
+                                </li>
+                            </ul>
+                        </td>
+                        <td title="'Update Badge'">
+                            <button class="btn btn-info" ng-click="prepareBadgeUpdate(student)" data-toggle="modal" data-target="#updateBadgeModel">Badges</button>
+                        </td>
+                        <td title="'Performance'">
+                            <!-- <a href="{$'/ranking_graph/'+student.id$}" target="_blank">
+                                Check Performance
+                            </a> -->
+                            <button ng-click="edit_student(student)" class="btn btn-success" data-toggle="modal" data-target="#performanceModel">
+                                Show Score
+                            </button>
+                        </td>
+                        <td title="'Edit'">
+                            <button class="btn btn-info" ng-click="edit_student(student)" data-toggle="modal" data-target="#updateStudentModel">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </td>
+                        <td title="'Delete'">
+                            <button class="btn btn-danger" ng-click="delete_student(student)">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div id="updateStudentModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$current_student.first_name+' '+current_student.last_name$}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">First Name:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_student.first_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Last Name:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_student.last_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Password:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_student.password" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-3">Batch:</div>
+                            <div class="col-sm-9">
+                                <!-- <input type="text" ng-model="current_student.batch_name" class="form-control" /> -->
+                                <select class="form-control" ng-model="selected_batch" ng-options="batch.id+'. '+batch.batch_name for batch in batches">
+                                </select>
+                                <!-- ng-change="changed_batch()">
+                                </select> -->
+                            </div>
+                        </div>
+                        <br>
+
+                        <!-- <div class="row">
+                            <div class="col-sm-3">Device:</div>
+                            <div class="col-sm-9">
+                                <select
+                                    class="form-control"
+                                    ng-model="current_student.device">
+                                    <option value="Android">Android</option>
+                                    <option value="iOS">iOS</option>
+                                </select>
+
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-sm-3">OS Version:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_student.os_version" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-sm-3">App Version:</div>
+                            <div class="col-sm-9">
+                                <input type="text" ng-model="current_student.app_version" class="form-control" />
+                            </div>
+                        </div>
+                        <br> -->
+
+                        <div class="row">
+                            <div class="col-sm-3">Profile picture:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="current_student.new_profile_pic" class="form-control" />
+                                <div style="font-size:10px;">
+                                    * Image will be uploaded but won't be reflected immediately.
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" ng-click="save_edit()" data-dismiss="modal">Save changes</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div id="addStudentModel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$new_student.first_name+' '+new_student.last_name$}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-3">First Name*:</div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="First name of the student" ng-model="new_student.first_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Last Name*:</div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Last name of the student" ng-model="new_student.last_name" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Email*:</div>
+                            <div class="col-sm-9">
+                                <input type="email" placeholder="Email of the student" ng-model="new_student.email" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-3">Password*:</div>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Password for the student" ng-model="new_student.password" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-3">Batch*:</div>
+                            <div class="col-sm-9">
+                                <select class="form-control" ng-model="new_student.batch" ng-options="batch.id+'. '+batch.batch_name for batch in batches">
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-3">Profile picture:</div>
+                            <div class="col-sm-9">
+                                <input type="file" file-model="new_student.new_profile_pic" class="form-control" />
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" ng-click="add_new_student()" data-dismiss="modal">Add New Student</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div id="performanceModel" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">{$current_student.first_name+' '+current_student.last_name$}</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6">Quiz:</div>
+                            <div class="col-sm-6">
+                                {$ current_student.quiz_marks $}/{$ current_student.quiz_outof $}
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-6">Assignment:</div>
+                            <div class="col-sm-6">
+                                {$ current_student.ass_marks $}/{$ current_student.ass_outof $}
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-sm-6">Application:</div>
+                            <div class="col-sm-6">
+                                {$ current_student.app_marks $}/{$ current_student.app_outof $}
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="row well">
+                            <div class="col-sm-6">Total:</div>
+                            <div class="col-sm-6">
+                                {$ current_student.total_marks $}/{$ current_student.quiz_outof + current_student.ass_outof + current_student.app_outof $}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div id="updateBadgeModel" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Update Badge of {$ current_student.first_name $}</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="row" ng-repeat="badge in current_student.badge_list">
+                            <div class="col-sm-2">
+                                <input type="checkbox" class="form-control" ng-model="badge.has">
+                            </div>
+                            <div class="col-sm-10" style="padding: 10px;">
+                                {$ badge.name $}
+                            </div>
+                        </div>
+
+                        <center>
+                            <button style="margin-top:10px" ng-click="updateStudentBadge()" class="btn btn-success" data-dismiss="modal">
+                                Save
+                            </button>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</div>
